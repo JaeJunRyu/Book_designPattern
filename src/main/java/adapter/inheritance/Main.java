@@ -1,4 +1,4 @@
-package adapter.inheritanceadapter;
+package adapter.inheritance;
 
 public class Main {
     public static void main(String[] args) {
