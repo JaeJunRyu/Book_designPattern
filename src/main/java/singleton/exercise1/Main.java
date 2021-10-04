@@ -1,0 +1,15 @@
+package singleton.exercise1;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Start");
+
+        for (int i = 0; i < 20; i++ ){
+//            System.out.println(i + " : " + i % 3);
+            Triple triple = Triple.getInstance(i % 3);
+            System.out.println(i + " : " + triple);
+        }
+
+        System.out.println("End");
+    }
+}
